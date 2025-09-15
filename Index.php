@@ -1,6 +1,5 @@
 <?php
     include "Config.php";
-    include "autoload.php";
+    include "Autoload.php";
     include "Core/Router.php";
-
 ?>

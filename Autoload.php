@@ -8,6 +8,6 @@ spl_autoload_register(function($nome_da_classe)
 
     }
     else
-    throw new Exception("Arquivo nao encontrado");
+        throw new Exception("Arquivo nao encontrado");
 });
 ?>
