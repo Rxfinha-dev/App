@@ -10,10 +10,13 @@ $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 switch($url){
 
-    case'/':
+    case '/':
         echo "pagina inicial";
-    break;
+        break;
 
+    case '/login':
+        include __DIR__ . '/../View/Login/form_login.php';
+        break;
 
 }
 
