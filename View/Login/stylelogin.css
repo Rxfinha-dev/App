@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fdfbfb 0%, #e8f5e9 50%, #e8f5e9 100%);
+    background: linear-gradient(135deg, #fdfbfb 0%, #e8eef5 50%, #e8eef5 100%);
     position: relative;
 }
 
@@ -90,13 +90,13 @@ form {
 
 .logo-icon {
     font-size: 38px;
-    color: #3FEB7A;
+    color: #1E90FF;
 }
 
 .logo-text {
     font-size: 28px;
     font-weight: 700;
-    background: linear-gradient(135deg, #3FEB7A 0%, #3FEB7A 100%);
+    background: linear-gradient(135deg, #1E90FF 0%, #1E90FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -129,7 +129,7 @@ form {
 
 .input-box input:focus {
     background: #ffffff;
-    border-color: #3FEB7A;
+    border-color: #1E90FF;
 }
 
 .input-box input::placeholder {
@@ -144,21 +144,21 @@ form {
 
 .forgot-link a {
     font-size: 14px;
-    color: #3FEB7A;
+    color: #1E90FF;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .forgot-link a:hover {
-    color: #3FEB7A;
+    color: #1E90FF;
 }
 
 .bottom {
     width: 100%;
     height: 48px;
-    background: linear-gradient(135deg, #3FEB7A 0%, #3FEB7A 100%);
+    background: linear-gradient(135deg, #1E90FF 0%, #1E90FF 100%);
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(129, 199, 132, .2);
+    box-shadow: 0 4px 15px rgba(129, 162, 199, 0.3);
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -169,7 +169,7 @@ form {
 
 .bottom:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(129, 199, 132, .3);
+    box-shadow: 0 6px 20px rgba(129, 162, 199, 0.3);
 }
 
 .bottom:active {
@@ -195,7 +195,7 @@ form {
     left: -250%;
     width: 300%;
     height: 100%;
-    background: linear-gradient(135deg, #3FEB7A 0%, #3FEB7A 50%, #3FEB7A 100%);
+    background: linear-gradient(135deg, #1E90FF 0%, #1E90FF 50%, #1E90FF 100%);
     border-radius: 150px;
     z-index: 2;
     transition: 1.8s ease-in-out;

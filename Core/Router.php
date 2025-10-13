@@ -18,6 +18,23 @@ switch($url){
         include __DIR__ . '/../View/Login/form_login.php';
         break;
 
+    case '/paciente':
+        include __DIR__ . '/../View/Login/Paciente/form_paciente.php';
+        break;
+
+    case '/medico':
+        include __DIR__ . '/../View/Login/Medico/form_medico.php';
+        break;
+
+    case '/produto':
+        include __DIR__ . '/../View/Login/Produto/form_produto.php';
+        break;
+
+    case '/servico':
+        include __DIR__ . '/../View/Login/Servico/form_servico.php';
+        break;
+    
+
 }
 
 ?>
