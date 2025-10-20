@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cadastro de Paciente - Sistema Médico</title>
-    <link rel="stylesheet" href="/View/Login/Paciente/stylepaciente.css">
+    <link rel="stylesheet" href="/View/Login/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -14,29 +14,28 @@
             <h1><i class='bx bx-user-plus'></i> Cadastro de Paciente</h1>
             <p>Preencha os dados do paciente abaixo</p>
         </div>
-
-        <form method="POST">
+        <form>
             <div class="section-title">Dados Pessoais</div>
             
             <div class="form-row">
                 <div class="input-group">
-                    <label for="nome">Nome Completo *</label>
-                    <input type="text" id="nome" name="nome" required>
+                    <label for="nome_pac">Nome Completo *</label>
+                    <input type="text" id="nome_pac" required>
                 </div>
                 <div class="input-group">
-                    <label for="cpf">CPF *</label>
-                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                    <label for="cpf_pac">CPF *</label>
+                    <input type="text" id="cpf_pac" placeholder="000.000.000-00" required>
                 </div>
             </div>
-
+            
             <div class="form-row">
                 <div class="input-group">
-                    <label for="data_nascimento">Data de Nascimento *</label>
-                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                    <label for="data_nasc_pac">Data de Nascimento *</label>
+                    <input type="date" id="data_nasc_pac" required>
                 </div>
                 <div class="input-group">
-                    <label for="sexo">Sexo *</label>
-                    <select id="sexo" name="sexo" required>
+                    <label for="sexo_pac">Sexo *</label>
+                    <select id="sexo_pac" required>
                         <option value="">Selecione</option>
                         <option value="M">Masculino</option>
                         <option value="F">Feminino</option>
@@ -44,64 +43,33 @@
                     </select>
                 </div>
             </div>
-
+            
             <div class="section-title">Contato</div>
-
+            
             <div class="form-row">
                 <div class="input-group">
-                    <label for="telefone">Telefone *</label>
-                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+                    <label for="tel_pac">Telefone *</label>
+                    <input type="tel" id="tel_pac" placeholder="(00) 00000-0000" required>
                 </div>
                 <div class="input-group">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email">
+                    <label for="email_pac">E-mail</label>
+                    <input type="email" id="email_pac">
                 </div>
             </div>
-
+            
             <div class="section-title">Endereço</div>
-
+            
             <div class="form-row">
                 <div class="input-group">
-                    <label for="cep">CEP</label>
-                    <input type="text" id="cep" name="cep" placeholder="00000-000">
+                    <label for="cep_pac">CEP</label>
+                    <input type="text" id="cep_pac" placeholder="00000-000">
                 </div>
                 <div class="input-group">
-                    <label for="logradouro">Logradouro</label>
-                    <input type="text" id="logradouro" name="logradouro">
+                    <label for="logr_pac">Logradouro</label>
+                    <input type="text" id="logr_pac">
                 </div>
             </div>
-
-            <div class="form-row">
-                <div class="input-group">
-                    <label for="numero">Número</label>
-                    <input type="text" id="numero" name="numero">
-                </div>
-                <div class="input-group">
-                    <label for="complemento">Complemento</label>
-                    <input type="text" id="complemento" name="complemento">
-                </div>
-            </div>
-
-            <div class="form-row">
-                <div class="input-group">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" name="bairro">
-                </div>
-                <div class="input-group">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade">
-                </div>
-            </div>
-
-            <div class="section-title">Informações Adicionais</div>
-
-            <div class="form-row">
-                <div class="input-group full-width">
-                    <label for="observacoes">Observações</label>
-                    <textarea id="observacoes" name="observacoes" placeholder="Alergias, restrições alimentares, histórico médico relevante..."></textarea>
-                </div>
-            </div>
-
+            
             <div class="btn-container">
                 <button type="button" class="btn btn-secondary">Cancelar</button>
                 <button type="submit" class="btn btn-primary">Cadastrar Paciente</button>
