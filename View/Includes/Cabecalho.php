@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Sistema</title>
+    <link rel="stylesheet" href="../View/Includes/sidebar.css">
     <style>
-        body { margin-left: 220px; padding: 20px; } /* Espaço para a sidebar */
+        body { margin-left: 260px; padding: 20px; } 
     </style>
 </head>
 <body>

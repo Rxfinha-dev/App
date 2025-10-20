@@ -19,22 +19,22 @@ switch($url){
         break;
 
     case '/paciente':
-        include __DIR__ . '/../View/Includes/Cabecalho.php'; // Inclui o cabeçalho e a sidebar
+        include __DIR__ . '/../View/Includes/Cabecalho.php';
         include __DIR__ . '/../View/Login/Paciente/form_paciente.php';
         break;
 
     case '/medico':
-        include __DIR__ . '/../View/Includes/Cabecalho.php'; // Inclui o cabeçalho e a sidebar
+        include __DIR__ . '/../View/Includes/Cabecalho.php'; 
         include __DIR__ . '/../View/Login/Medico/form_medico.php';
         break;
 
     case '/produto':
-        include __DIR__ . '/../View/Includes/Cabecalho.php'; // Inclui o cabeçalho e a sidebar
+        include __DIR__ . '/../View/Includes/Cabecalho.php';
         include __DIR__ . '/../View/Login/Produto/form_produto.php';
         break;
 
     case '/servico':
-        include __DIR__ . '/../View/Includes/Cabecalho.php'; // Inclui o cabeçalho e a sidebar
+        include __DIR__ . '/../View/Includes/Cabecalho.php';
         include __DIR__ . '/../View/Login/Servico/form_servico.php';
         break;
     

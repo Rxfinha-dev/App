@@ -13,7 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Sidebar */
 .sidebar {
     position: fixed;
     left: 0;
