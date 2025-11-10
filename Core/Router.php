@@ -11,7 +11,8 @@ $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 switch($url){
 
     case '/':
-        echo "pagina inicial";
+        include __DIR__ . '/../View/Includes/Cabecalho.php';
+        include __DIR__ . '/../View/Login/Sidebar.php';
         break;
 
     case '/login':
