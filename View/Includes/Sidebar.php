@@ -61,18 +61,6 @@
         </ul>
     </nav>
 
-    <div class="sidebar-footer">
-        <div class="sidebar-profile">
-            <div class="sidebar-profile-avatar">
-                <i class='bx bx-user'></i>
-            </div>
-            <div class="sidebar-profile-info">
-                <p class="sidebar-profile-name">Usuário Admin</p>
-                <p class="sidebar-profile-role">Administrador</p>
-            </div>
-            <i class='bx bx-chevron-right sidebar-profile-arrow'></i>
-        </div>
-    </div>
 </aside>
 
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>

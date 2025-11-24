@@ -1,0 +1,8 @@
+[24-Nov-2025 08:21:03 America/Sao_Paulo] PHP Warning:  include(D:\www\231173\App\Core/../View/Login/Sidebar.php): Failed to open stream: No such file or directory in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:21:03 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'D:\www\231173\App\Core/../View/Login/Sidebar.php' for inclusion (include_path='.;C:\php\pear') in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:21:29 America/Sao_Paulo] PHP Warning:  include(D:\www\231173\App\Core/../View/Login/Sidebar.php): Failed to open stream: No such file or directory in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:21:29 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'D:\www\231173\App\Core/../View/Login/Sidebar.php' for inclusion (include_path='.;C:\php\pear') in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:27:42 America/Sao_Paulo] PHP Warning:  include(D:\www\231173\App\Core/../View/Login/Sidebar.php): Failed to open stream: No such file or directory in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:27:42 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'D:\www\231173\App\Core/../View/Login/Sidebar.php' for inclusion (include_path='.;C:\php\pear') in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:28:54 America/Sao_Paulo] PHP Warning:  include(D:\www\231173\App\Core/../View/Login/Sidebar.php): Failed to open stream: No such file or directory in D:\www\231173\App\Core\Router.php on line 15
+[24-Nov-2025 08:28:54 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'D:\www\231173\App\Core/../View/Login/Sidebar.php' for inclusion (include_path='.;C:\php\pear') in D:\www\231173\App\Core\Router.php on line 15

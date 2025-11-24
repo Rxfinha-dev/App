@@ -39,6 +39,9 @@
                     <label for="uf_crm">UF do CRM *</label>
                     <select id="uf_crm" required>
                         <option value="">Selecione</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
                     </select>
                 </div>
             </div>
